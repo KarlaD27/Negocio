@@ -1,0 +1,88 @@
+body {
+    font-family: 'Georgia', serif; /* Cambiado a Georgia */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #fff; /* Texto blanco */
+    background-color: #000; /* Fondo negro */
+}
+
+header {
+    background-color: #b22222; /* Rojo oscuro */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+main section {
+    margin-bottom: 2rem;
+}
+
+main section h2 {
+    color: #b22222; /* Rojo oscuro */
+}
+
+.platillos {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.platillos article {
+    text-align: center;
+    border: 1px solid #b22222; /* Borde rojo oscuro */
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #111; /* Fondo negro más claro */
+}
+
+.platillos article img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #b22222; /* Rojo oscuro */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+#inicio img {
+    width: 100%; /* La imagen ocupa todo el ancho de la página */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-height: 400px; /* Limita la altura para que no abarque toda la pantalla */
+    object-fit: cover; /* Ajusta la imagen para que se vea bien dentro del contenedor */
+}
+.platillos article img {
+    width: 300px; /* Ancho fijo */
+    height: 200px; /* Altura fija */
+    object-fit: cover; /* Ajusta la imagen para que se vea bien dentro del contenedor */
+    border-radius: 5px; /* Bordes redondeados */
+}
